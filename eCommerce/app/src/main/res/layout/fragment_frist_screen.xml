@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FristScreenFragment">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/applogo"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/main_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/btn_back"
+            android:text="Already have an Account? Login"
+
+            />
+
+        <Button
+            android:id="@+id/main_join_now_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/main_login_btn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:text="Join Now"
+            android:background="@drawable/btn_back"
+            android:textColor="#fff"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
